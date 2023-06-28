@@ -5,7 +5,7 @@ function LoginScreen() {
     <div className='loginScreen'>
         <img 
         className='loginScreen__Logo'
-        src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="" />
+        src="https://www.freepnglogos.com/uploads/netflix-logo-drawing-png-19.png" alt="" />
         <button className='loginScreen__button'>Sign In</button>
         <div className="loginScreen__gradient"/>
         <div className="loginScreen__body">
