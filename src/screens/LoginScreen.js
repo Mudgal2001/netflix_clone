@@ -1,17 +1,18 @@
 import React, { useState } from 'react'
 import './LoginScreen.css'
-import SignInScreen from './SignInScreen';
 import SignUpScreen from './SignUpScreen';
 function LoginScreen() {
     const [signIn, setSignIn] = useState(false);
   return (
     <div className='loginScreen'>
+    <div className="loginScreen__background"></div>
         <img 
         className='loginScreen__Logo'
         src="https://www.freepnglogos.com/uploads/netflix-logo-drawing-png-19.png" alt="" />
         <button onClick = {()=> setSignIn(true)}
          className='loginScreen__button'>Sign In</button>
         <div className="loginScreen__gradient"/>
+        <div/>
         <div className="loginScreen__body">
           {signIn ? (
            <SignUpScreen/>
