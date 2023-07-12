@@ -1,46 +1,85 @@
-# Getting Started with Create React App and Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Available Scripts
 
-In the project directory, you can run:
+# Netflix Clone
 
-### `npm start`
+Netflix clone with Netflix like UI and functionalities built using React.js and Firebase
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br/>
+<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" height="100" alt="" />
+<br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+[LIVE](https://netflix-clone-y-8bda1.web.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Progressive Web App (PWA)
+- State management using Redux Toolkit
+- User authentication + sign in with Google
+- UI almost similar to Netflix
+- User can view movie/series info and trailer if available
+- User can search for movies/series
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Run Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone the project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  git clone https://github.com/Mudgal2001/netflix_clone.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Go to the project directory
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  cd Netflix-Clone
+```
 
-## Learn More
+Install dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Create a **.env** file inside project directory with fields given below.
+
+```bash
+  # TMDB API
+  REACT_APP_API_KEY=  # Create account in TMDB API and add TMDB API KEY here
+
+  #FIREBASE
+  REACT_APP_FIREBASE_API_KEY=
+  REACT_APP_FIREBASE_AUTHDOMAIN=
+  REACT_APP_FIREBASE_DATABASEURL=
+  REACT_APP_FIREBASE_PROJECTID=
+  REACT_APP_FIREBASE_STORAGEBUCKET=
+  REACT_APP_FIREBASE_MESSAGINGSENDERID=
+  REACT_APP_FIREBASE_APPID=
+  REACT_APP_FIREBASE_MEASUREMENTID=
+
+  GENERATE_SOURCEMAP=false
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+  
+## Contributing
+
+Contributions are always welcome!
+
+  
+  
+<br/>
+<br/>
+
+<p align="center">If you liked the repository, show your  ❤️  by starring and forking it.</p>
+  
+  
